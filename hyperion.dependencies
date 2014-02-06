@@ -1,7 +1,7 @@
 [
     {
         "remote": "sr",
-		"repository": "device_samsung_omap4-common",
+	"repository": "device_samsung_omap4-common",
         "target_path": "device/samsung/omap4-common",
         "revision": "kk4.4"
     },
@@ -12,14 +12,14 @@
         "revision": "cm-11.0"
     },
     {
-		"remote": "tm",        
-		"repository": "proprietary_vendor_samsung",
+	"remote": "tm",
+	"repository": "proprietary_vendor_samsung",
         "target_path": "vendor/samsung",
         "revision": "cm-11.0"
     },
     {
         "remote": "sr",
-		"repository": "device_samsung_p3100",
+	"repository": "device_samsung_p3100",
         "target_path": "device/samsung/p3100",
         "revision": "kk4.4"
     },
