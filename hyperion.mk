@@ -15,20 +15,20 @@
 #
 
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/slim/config/gsm.mk)
+$(call inherit-product, vendor/hyperion/config/gsm.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := p3110
 
-# Inherit some common Slim stuff.
-$(call inherit-product, vendor/slim/config/common_full_tablet_wifionly.mk)
+# Inherit some common Hyperion stuff.
+$(call inherit-product, vendor/hyperion/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/p3110/full_p3110.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := p3110
-PRODUCT_NAME := slim_p3110
+PRODUCT_NAME := hyperion_p3110
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-P3110
 PRODUCT_MANUFACTURER := samsung
